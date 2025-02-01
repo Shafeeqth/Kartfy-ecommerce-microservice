@@ -1,0 +1,36 @@
+# Core Framework
+uvicorn==0.22.0
+fastapi[standard]==0.113.0
+
+
+# Database
+sqlalchemy==2.0.20
+
+alembic==1.11.1
+
+# Async & Concurrency
+anyio==3.7.0
+
+# Data Validation & Serialization
+pydantic==2.8.0
+
+# Caching & Event Bus
+redis>=3.4.1,<4.0.0
+
+# Monitoring & Observability
+opentelemetry-api==1.18.0
+opentelemetry-sdk==1.18.0
+opentelemetry-instrumentation-fastapi==0.39b0
+opentelemetry-exporter-jaeger==1.18.0
+
+# Rate Limiting
+slowapi==0.1.1
+
+# Testing
+pytest==7.3.1
+pytest-asyncio==0.21.0
+httpx==0.24.1
+
+# Utilities
+python-dotenv==1.0.0
+loguru==0.7.0
